@@ -1,0 +1,19 @@
+</h2>
+<h3>
+<form action="{{url_for('predict'}}}"method="post">
+<p>BLOOD UREA:<input type='text'name='blood urea'placeholder='enter the blood urea level''required'/>
+<p>GLUCOSE LEVEL:<input type='text'name='glucose level'placeholder='enter the glucose level''required'/>
+<p>ANEMIA LEVEL:<input type='text'name='anemia level'placeholder='enter the anemia level''required'/>
+<p>CORONARY ARTERY DISEASES:<input type ='text'name='coronary artery diseases'placeholder='enter the coronary artery diseases"
+<p>PUS_CELL:<input type ='text'name='pus_cell'placehoulder='enter the pus_cell level''required'/>
+<p>RED BLOOD CELL LEVEL:<input type='text'name='red blood cell level'placeholder='enter the red blood cell level''required'/>
+<p>DIABETES MELLITUS:<input type='text'name='diabetes mellitus'placeholder='enter the diabetes mellitus level''required'/>
+<p>PEDAL_EDEMA:<input type='text'name='pedal_edema'placeholder='enter the pedal_edema''required'/>
+<button type="submit"class"btn btn-primary btn-block btn-large">predit</button>
+</form>
+</h3>
+<h4>
+<b>
+{{prediction_text}}
+</b>
+</html>
